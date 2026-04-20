@@ -15,7 +15,6 @@
 http-response ^https?:\/\/api\.(revenuecat|rc-backup)\.com\/v1\/(receipts|subscribers\/\$[^/]+)$ script-path=https://raw.githubusercontent.com/xlzs001/loon/refs/heads/main/Pillow/Pillow.js, requires-body=true, timeout=10, tag=Pillow会员解锁
 
 [MITM]
-hostname = api.revenuecat.com, api.rc-backup.com, revenuecat.com, api.revenuecat.com
-
+hostname = api.revenuecat.com, api.rc-backup.com
 
 
